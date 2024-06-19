@@ -16,10 +16,10 @@ public class CityTimeZoneController {
     private CityTimeZoneService cityTimeZoneService;
 
     @GetMapping("/city-time-zone")
-    public ResponseEntity<List<CityTimeZone>> getCityTimeZones() {
-        List<CityTimeZone> cityTimeZoneList = cityTimeZoneService.getAllCityTimeZone();
-        if(!cityTimeZoneList.isEmpty()) {
-            return ResponseEntity.status(HttpStatus.OK).body(cityTimeZoneList);
+    public ResponseEntity<List<CityTimeZone>> getAllCityTimeZones(){
+        List<CityTimeZone> cityTimeZones = cityTimeZoneService.getAllCityTimeZone();
+        if(!cityTimeZones.isEmpty()){
+            return ResponseEntity.status(HttpStatus.OK).body(cityTimeZones);
         }else{
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }

@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>You</title>
 </head>
 <body>
-
+<form action="#" th:action="@{/result}" method="post">
+    <select id="yourCityTimeZone" name="yourCityTimeZone">
+        <option value="" disabled selected>你的城市</option>
+        <option th:each="cityTimeZone: ${cityTimeZones}" th:value="${cityTimeZone.timeZone}" th:text="${cityTimeZone.city}"></option>
+    </select><br>
+    <label>清醒時段</label><br>
+    <input type="time" id="yourStartTime" name="yourStartTime"><br>
+    To<br>
+    <input type="time" id="yourEndTime" name="yourEndTime"><br>
+    <button type="submit">下一步</button>
+</form>
+<form action="#" th:action="@{/me}" method="post">
+    <button type="submit">上一步</button>
+</form>
 </body>
 </html>
