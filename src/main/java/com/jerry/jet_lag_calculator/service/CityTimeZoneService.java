@@ -28,10 +28,9 @@ public class CityTimeZoneService {
     public CityTimeZone updateCityTimeZone(Long id, CityTimeZone cityTimeZone){
         CityTimeZone targetCityTimeZone = getCityTimeZoneById(id);
         if(targetCityTimeZone != null){
-            targetCityTimeZone.setContinent(cityTimeZone.getContinent());
-            targetCityTimeZone.setCountry(cityTimeZone.getCountry());
             targetCityTimeZone.setCity(cityTimeZone.getCity());
             targetCityTimeZone.setTimeZone(cityTimeZone.getTimeZone());
+            targetCityTimeZone.setSummerTime(cityTimeZone.isSummerTime());
             return cityTimeZoneRepository.save(targetCityTimeZone);
         }else{
             return null;

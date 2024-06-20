@@ -1,0 +1,1134 @@
+{
+	"citys": [ 
+{
+    "city": "阿聯酋/杜拜 (United Arab Emirates/Dubai)",
+    "time_zone": "+4",
+    "summer_time": false
+},
+{
+    "city": "阿富汗/喀布爾 (Afghanistan/Kabul)",
+    "time_zone": "+4.5",
+    "summer_time": false
+},
+{
+    "city": "亞美尼亞/耶烈萬 (Armenia/Yerevan)",
+    "time_zone": "+4",
+    "summer_time": false
+},
+{
+    "city": "孟加拉國/達卡 (Bangladesh/Dhaka)",
+    "time_zone": "+6",
+    "summer_time": false
+},
+{
+    "city": "文萊 (Brunei)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "沙烏地阿拉伯/巴林 (Saudi Arabia/Bahrain)",
+    "time_zone": "+3",
+    "summer_time": false
+},
+{
+    "city": "不丹/廷布 (Bhutan/Thimphu)",
+    "time_zone": "+6",
+    "summer_time": false
+},
+{
+    "city": "中國/長春 (China/Changchun)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "中國/成都 (China/Chengdu)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "中國/重慶 (China/Chongqing)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "中國/大連 (China/Dalian)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "中國/廣州 (China/Guangzhou)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "中國/杭州 (China/Hangzhou)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "中國/哈爾濱 (China/Harbin)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "中國/濟南 (China/Jinan)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "中國/喀什 (China/Kashgar)",
+    "time_zone": "+6",
+    "summer_time": false
+},
+{
+    "city": "中國/昆明 (China/Kunming)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "中國/南京 (China/Nanjinh)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "中國/青島 (China/Qingdao)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "中國/天津 (China/Tianjin)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "中國/烏魯木齊 (China/Urumqi)",
+    "time_zone": "+6",
+    "summer_time": false
+},
+{
+    "city": "中國/武漢 (China/Wuhan)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "中國/廈門 (China/Xiamen)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "中國/西安 (China/Xian)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "塞浦路斯/尼科西亞 (Cyprus/Nicosia)",
+    "time_zone": "+3",
+    "summer_time": true
+},
+{
+    "city": "喬治亞/第比利斯 (Georgia/Tbilisi)",
+    "time_zone": "+4",
+    "summer_time": false
+},
+{
+    "city": "中國/香港 (China/Hong Kong)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "印尼/雅加達 (Indonesia/Jakarta)",
+    "time_zone": "+7",
+    "summer_time": false
+},
+{
+    "city": "印尼/望加錫 (Indonesia/Makassar)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "亞洲/坤甸 (Indonesia/Pontianak)",
+    "time_zone": "+7",
+    "summer_time": false
+},
+{
+    "city": "印度/加爾各答 (India/Kolkata)",
+    "time_zone": "+5.5",
+    "summer_time": false
+},
+{
+    "city": "印度/孟買 (India/Mumbia)",
+    "time_zone": "+5.5",
+    "summer_time": false
+},
+{
+    "city": "以色列/耶路撒冷 (Israel/Jerusalem)",
+    "time_zone": "+3",
+    "summer_time": true
+},
+{
+    "city": "伊拉克/巴格達 (Iraq/Baghdad)",
+    "time_zone": "+3",
+    "summer_time": false
+},
+{
+    "city": "伊朗/德黑蘭 (Iran/Tehran)",
+    "time_zone": "+3.5",
+    "summer_time": false
+},
+{
+    "city": "日本/東京 (Japan/Tokyo)",
+    "time_zone": "+9",
+    "summer_time": false
+},
+{
+    "city": "日本/名古屋 (Japan/Nagoya)",
+    "time_zone": "+9",
+    "summer_time": false
+},
+{
+    "city": "日本/沖繩 (Japan/Okinawa)",
+    "time_zone": "+9",
+    "summer_time": false
+},
+{
+    "city": "日本/大阪 (Japan/Osaka)",
+    "time_zone": "+9",
+    "summer_time": false
+},
+{
+    "city": "日本/札幌 (Japan/Sapporo)",
+    "time_zone": "+9",
+    "summer_time": false
+},
+{
+    "city": "吉爾吉斯/比什凱克 (Kyrgyzstan/Bishkek)",
+    "time_zone": "+6",
+    "summer_time": false
+},
+{
+    "city": "柬埔寨/金邊 (Cambodia/Phnom Penh)",
+    "time_zone": "+7",
+    "summer_time": false
+},
+{
+    "city": "北韓/平壤 (North Korea/Pyongyang)",
+    "time_zone": "+9",
+    "summer_time": false
+},
+{
+    "city": "南韓/首爾 (South Korea/Seoul)",
+    "time_zone": "+9",
+    "summer_time": false
+},
+{
+    "city": "科威特 (Kuwait/Kuwait)",
+    "time_zone": "+3",
+    "summer_time": false
+},
+{
+    "city": "哈薩克/阿拉木圖 (Kazakhstan/Almaty)",
+    "time_zone": "+5",
+    "summer_time": false
+},
+{
+    "city": "哈薩克/阿克套 (Kazakhstan/Aqtau)",
+    "time_zone": "+5",
+    "summer_time": false
+},
+{
+    "city": "哈薩克/阿克托別 (Kazakhstan/Aqtobe)",
+    "time_zone": "+5",
+    "summer_time": false
+},
+{
+    "city": "哈薩克/烏拉爾 (Kazakhstan/Oral)",
+    "time_zone": "+5",
+    "summer_time": false
+},
+{
+    "city": "哈薩克/克孜勒奧爾達 (Kazakhstan/Qyzylorda)",
+    "time_zone": "+5",
+    "summer_time": false
+},
+{
+    "city": "寮國/永珍 (Laos/Vientiane)",
+    "time_zone": "+7",
+    "summer_time": false
+},
+{
+    "city": "黎巴嫩/貝魯特 (Lebanon/Beirut)",
+    "time_zone": "+3",
+    "summer_time": true
+},
+{
+    "city": "斯里蘭卡/科倫坡 (/Colombo)",
+    "time_zone": "+5.5",
+    "summer_time": false
+},
+{
+    "city": "緬甸/仰光 (Myanmar/Rangoon)",
+    "time_zone": "+6.5",
+    "summer_time": false
+},
+{
+    "city": "蒙古/喬巴山 (Mongolia/Choibalsan)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "蒙古/科布多 (Mongolia/Hovd)",
+    "time_zone": "+7",
+    "summer_time": false
+},
+{
+    "city": "蒙古/烏蘭巴托市 (Mongolia/Ulaanbaatar)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "中國/澳門 (China/Macau)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "馬來西亞/吉隆坡 (Malaysia/Kuala Lumpur)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "馬來西亞/古晉 (Malaysia/Kuching)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "尼泊爾/加德滿都 (Nepal/Kathmandu)",
+    "time_zone": "+5.8",
+    "summer_time": false
+},
+{
+    "city": "阿曼/馬斯喀特 (Oman/Muscat)",
+    "time_zone": "+4",
+    "summer_time": false
+},
+{
+    "city": "菲律賓/馬尼拉 (Philippines/Manila)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "巴基斯坦/卡拉奇 (Pakistan/Karachi)",
+    "time_zone": "+5",
+    "summer_time": false
+},
+{
+    "city": "卡達/杜哈 (Qatar/Doha)",
+    "time_zone": "+3",
+    "summer_time": false
+},
+{
+    "city": "新加坡 (Singapore)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "敘利亞/大馬士革 (Syria/Damascus)",
+    "time_zone": "+3",
+    "summer_time": false
+},
+{
+    "city": "泰國/曼谷 (THailand/Bangkok)",
+    "time_zone": "+7",
+    "summer_time": false
+},
+{
+    "city": "塔吉克/杜尚別 (Tajikistan/Dushanbe)",
+    "time_zone": "+5",
+    "summer_time": false
+},
+{
+    "city": "台灣/台北 (Taiwan/Taipei)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "台灣/台中 (Taiwan/Taichung)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "台灣/高雄 (Taiwan/Kaohsiung)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "烏茲別克/撒馬爾罕 (Uzbekistan/Samarkand)",
+    "time_zone": "+5",
+    "summer_time": false
+},
+{
+    "city": "烏茲別克/塔什幹 (Uzbekistan/Tashkent)",
+    "time_zone": "+5",
+    "summer_time": false
+},
+{
+    "city": "越南/胡志明 (Vietnam/Ho Chi Minh City)",
+    "time_zone": "+7",
+    "summer_time": false
+},
+{
+    "city": "葉門/亞丁 (Yemen/Aden)",
+    "time_zone": "+3",
+    "summer_time": false
+},
+{
+    "city": "加拿大/溫哥華 (Canada/Vancouver)",
+    "time_zone": "-7",
+    "summer_time": true
+},
+{
+    "city": "加拿大/多倫多 (Canada/Toronto)",
+    "time_zone": "-4",
+    "summer_time": true
+},
+{
+    "city": "加拿大/渥太華 (Canada/Ottawa)",
+    "time_zone": "-4",
+    "summer_time": true
+},
+{
+    "city": "美國/阿布奎基 (US/Albuquerque)",
+    "time_zone": "-6",
+    "summer_time": true
+},
+{
+    "city": "美國/安克拉治 (US/Anchorage)",
+    "time_zone": "-8",
+    "summer_time": true
+},
+{
+    "city": "美國/亞特蘭大 (US/Atlanta)",
+    "time_zone": "-4",
+    "summer_time": true
+},
+{
+    "city": "美國/波士頓 (US/Boston)",
+    "time_zone": "-4",
+    "summer_time": true
+},
+{
+    "city": "美國/芝加哥 (US/Chicago)",
+    "time_zone": "-5",
+    "summer_time": true
+},
+{
+    "city": "美國/達拉斯 (US/Dallas)",
+    "time_zone": "-5",
+    "summer_time": true
+},
+{
+    "city": "美國/丹佛 (US/Denver)",
+    "time_zone": "-6",
+    "summer_time": true
+},
+{
+    "city": "美國/檀香山 (US/Honolulu)",
+    "time_zone": "-10",
+    "summer_time": false
+},
+{
+    "city": "美國/休斯頓 (US/Houston)",
+    "time_zone": "-5",
+    "summer_time": true
+},
+{
+    "city": "美國/堪薩斯城 (US/Kansas City)",
+    "time_zone": "-5",
+    "summer_time": true
+},
+{
+    "city": "美國/拉斯維加斯 (US/Las Vegas)",
+    "time_zone": "-7",
+    "summer_time": true
+},
+{
+    "city": "美國/洛杉磯 (US/Los Angeles)",
+    "time_zone": "-7",
+    "summer_time": true
+},
+{
+    "city": "美國/邁阿密 (US/Miami)",
+    "time_zone": "-4",
+    "summer_time": true
+},
+{
+    "city": "美國/紐奧良 (US/New Orleans)",
+    "time_zone": "-5",
+    "summer_time": true
+},
+{
+    "city": "美國/紐約 (US/New York)",
+    "time_zone": "-4",
+    "summer_time": true
+},
+{
+    "city": "美國/俄克拉何馬市 (US/Oklahoma City)",
+    "time_zone": "-5",
+    "summer_time": true
+},
+{
+    "city": "美國/鳳凰城 (US/Phoenix)",
+    "time_zone": "-7",
+    "summer_time": false
+},
+{
+    "city": "美國/波特蘭 (US/Portland)",
+    "time_zone": "-7",
+    "summer_time": true
+},
+{
+    "city": "美國/底特律 (US/Detroit)",
+    "time_zone": "-4",
+    "summer_time": true
+},
+{
+    "city": "美國/鹽湖城 (US/Salt Lake City)",
+    "time_zone": "-6",
+    "summer_time": true
+},
+{
+    "city": "美國/聖安東尼奧 (US/San Antonio)",
+    "time_zone": "-5",
+    "summer_time": true
+},
+{
+    "city": "美國/聖地亞哥 (US/San Diego)",
+    "time_zone": "-7",
+    "summer_time": true
+},
+{
+    "city": "美國/舊金山 (US/San Francisco)",
+    "time_zone": "-7",
+    "summer_time": true
+},
+{
+    "city": "美國/西雅圖 (US/Seattle)",
+    "time_zone": "-7",
+    "summer_time": true
+},
+{
+    "city": "美國/聖路易斯 (US/St. Louis)",
+    "time_zone": "-5",
+    "summer_time": true
+},
+{
+    "city": "美國/華盛頓特區 (US/Washington DC)",
+    "time_zone": "-4",
+    "summer_time": true
+},
+{
+    "city": "阿根廷/布宜諾斯艾利斯 (Argentina/Buenos Aires)",
+    "time_zone": "-3",
+    "summer_time": false
+},
+{
+    "city": "玻利維亞/拉巴斯 (Bolivia/La Paz)",
+    "time_zone": "-4",
+    "summer_time": false
+},
+{
+    "city": "巴西/里約熱內盧 (Brazil/Rio De Janeiro)",
+    "time_zone": "-3",
+    "summer_time": false
+},
+{
+    "city": "巴西/薩爾瓦多 (Brazil/Salvador)",
+    "time_zone": "-3",
+    "summer_time": false
+},
+{
+    "city": "巴西/聖保羅 (Brazil/Sao Paulo)",
+    "time_zone": "-3",
+    "summer_time": false
+},
+{
+    "city": "貝里斯/伯利茲 (Belize/Belize)",
+    "time_zone": "-6",
+    "summer_time": false
+},
+{
+    "city": "智利/聖地亞哥 (Chile/Santiago)",
+    "time_zone": "-4",
+    "summer_time": false
+},
+{
+    "city": "哥斯達黎加/聖荷西 (Costa Rica/San Jose)",
+    "time_zone": "-6",
+    "summer_time": false
+},
+{
+    "city": "哥倫比亞/波哥大 (Colombia/Bogota)",
+    "time_zone": "-5",
+    "summer_time": false
+},
+{
+    "city": "厄瓜多/瓜亞基爾 (Ecuador/Guayaquil)",
+    "time_zone": "-5",
+    "summer_time": false
+},
+{
+    "city": "法屬圭亞那/卡宴 (French Guiana/Cayenne)",
+    "time_zone": "-3",
+    "summer_time": false
+},
+{
+    "city": "瓜地馬拉 (Guatemala/Guatemala)",
+    "time_zone": "-6",
+    "summer_time": false
+},
+{
+    "city": "蓋亞那/喬治城 (Guyana/Georgetown)",
+    "time_zone": "-4",
+    "summer_time": false
+},
+{
+    "city": "宏都拉斯/特古西加爾巴 (Honduras/Tegucigalpa)",
+    "time_zone": "-6",
+    "summer_time": false
+},
+{
+    "city": "墨西哥/契瓦瓦 (Mexico/Chihuahua)",
+    "time_zone": "-6",
+    "summer_time": false
+},
+{
+    "city": "墨西哥/墨西哥城 (Mexico/Mexico City)",
+    "time_zone": "-6",
+    "summer_time": false
+},
+{
+    "city": "墨西哥/蒙特雷 (Mexico/Monterrey)",
+    "time_zone": "-6",
+    "summer_time": false
+},
+{
+    "city": "尼加拉瓜/馬拿瓜 (Nicaragua/Managua)",
+    "time_zone": "-6",
+    "summer_time": false
+},
+{
+    "city": "巴拿馬/巴拿馬 (Panama/Panama)",
+    "time_zone": "-5",
+    "summer_time": false
+},
+{
+    "city": "秘魯/利馬 (Peru/Lima)",
+    "time_zone": "-5",
+    "summer_time": false
+},
+{
+    "city": "巴拉圭/亞松森 (Paraguay/Asuncion)",
+    "time_zone": "-4",
+    "summer_time": false
+},
+{
+    "city": "蘇利南/帕拉馬里博 (Suriname/Paramaribo)",
+    "time_zone": "-3",
+    "summer_time": false
+},
+{
+    "city": "烏拉圭/蒙得維的亞 (Uruguay/Montevideo)",
+    "time_zone": "-3",
+    "summer_time": false
+},
+{
+    "city": "委內瑞拉/加拉加斯 (Venezurla/Caracas)",
+    "time_zone": "-4",
+    "summer_time": false
+},
+{
+    "city": "阿爾巴尼亞/地拉那 (Albania/Tirane)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "奧地利/維也納 (Austria/Vienna)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "波希尼亞/賽拉耶佛 (Bosnia/Sarajevo)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "比利時/布魯塞爾 (Belgium/Brussels)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "白俄羅斯/明斯克 (Belarus/Minsk)",
+    "time_zone": "+3",
+    "summer_time": false
+},
+{
+    "city": "保加利亞/索非亞 (Bulgaria/Sofia)",
+    "time_zone": "+3",
+    "summer_time": true
+},
+{
+    "city": "瑞士/蘇黎世 (Switzerland/Zurich)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "捷克/布拉格 (Czech Republic/Prague)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "西班牙/馬德里 (Spain/Madrid)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "法國/巴黎 (France/Paris)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "英國/倫敦 (UK/London)",
+    "time_zone": "+1",
+    "summer_time": true
+},
+{
+    "city": "直布羅陀 (Gibraltar)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "希臘/雅典 (Greece/Athens)",
+    "time_zone": "+3",
+    "summer_time": true
+},
+{
+    "city": "德國/柏林 (Germany/Berlin)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "德國/慕尼黑 (Germany/Munchen)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "德國/漢堡 (Germany/Hamburg)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "歐洲/哥本哈根 (Copenhagen)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "愛沙尼亞/塔林 (Estonia/Tallinn)",
+    "time_zone": "+3",
+    "summer_time": true
+},
+{
+    "city": "芬蘭/赫爾辛基 (Finland/Helsinki)",
+    "time_zone": "+3",
+    "summer_time": true
+},
+{
+    "city": "意大利/羅馬 (Italy/Rome)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "立陶宛/維爾紐斯 (Lithuania/Vilnius)",
+    "time_zone": "+3",
+    "summer_time": true
+},
+{
+    "city": "盧森堡 (Luxembourg)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "拉脫維亞/裡加 (Latvia/Riga)",
+    "time_zone": "+3",
+    "summer_time": true
+},
+{
+    "city": "摩納哥 (Monaco)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "摩爾多瓦/基希納烏 (Moldova/Chisinau)",
+    "time_zone": "+3",
+    "summer_time": true
+},
+{
+    "city": "馬其頓/斯科普里 (Macedonia/Skopje)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "蒙特內哥羅/波德戈里察 (Montenegro/Podgorica)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "馬爾他 (Malta)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "荷蘭/阿姆斯特丹 (Netherland/Amsterdam)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "挪威/奧斯陸 (Norway/Oslo)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "波蘭/華沙 (Poland/Warsaw)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "葡萄牙/里斯本 (Portugal/Lisbon)",
+    "time_zone": "+1",
+    "summer_time": true
+},
+{
+    "city": "俄國/加里寧格勒 (Russia/Kaliningrad)",
+    "time_zone": "+2",
+    "summer_time": false
+},
+{
+    "city": "俄國/莫斯科 (Russia/Moscow)",
+    "time_zone": "+3",
+    "summer_time": false
+},
+{
+    "city": "俄國/薩馬拉 (Russia/Samara)",
+    "time_zone": "+4",
+    "summer_time": false
+},
+{
+    "city": "俄國/伏爾加格勒 (Russia/Volgograd)",
+    "time_zone": "+3",
+    "summer_time": false
+},
+{
+    "city": "瑞典/斯德哥爾摩 (Sweden/Stockholm)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "斯洛維尼亞/盧布爾雅那 (Slovenia/Ljubljana)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "聖馬力諾 (San Marino)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "烏克蘭/基輔 (Ukraine/Kiev)",
+    "time_zone": "+3",
+    "summer_time": true
+},
+{
+    "city": "烏克蘭/辛菲羅波爾 (Ukraine/Simferopol)",
+    "time_zone": "+3",
+    "summer_time": false
+},
+{
+    "city": "烏克蘭/烏日哥羅德 (Ukraine/Uzhgorod)",
+    "time_zone": "+3",
+    "summer_time": true
+},
+{
+    "city": "烏克蘭/扎波羅熱 (Ukraine/Zaporozhye)",
+    "time_zone": "+3",
+    "summer_time": true
+},
+{
+    "city": "梵蒂岡 (Vatican)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "澳大利亞/阿德萊德 (Australia/Adelaide)",
+    "time_zone": "+9.5",
+    "summer_time": false
+},
+{
+    "city": "澳大利亞/布里斯班 (Australia/Brisbane)",
+    "time_zone": "+10",
+    "summer_time": false
+},
+{
+    "city": "澳大利亞/墨爾本 (Australia/Melbourne)",
+    "time_zone": "+10",
+    "summer_time": false
+},
+{
+    "city": "澳大利亞/珀斯 (Australia/Perth)",
+    "time_zone": "+8",
+    "summer_time": false
+},
+{
+    "city": "澳大利亞/悉尼 (Australia/Sydney)",
+    "time_zone": "+10",
+    "summer_time": false
+},
+{
+    "city": "紐西蘭/奧克蘭 (New Zealand/Auckland)",
+    "time_zone": "+12",
+    "summer_time": false
+},
+{
+    "city": "約西蘭/基督城 (New Zealand/Christchurch)",
+    "time_zone": "+12",
+    "summer_time": false
+},
+{
+    "city": "安哥拉/盧安達 (Angola/Luanda)",
+    "time_zone": "+1",
+    "summer_time": false
+},
+{
+    "city": "布隆迪/布瓊布拉 (Burundi/Bujumbura)",
+    "time_zone": "+2",
+    "summer_time": false
+},
+{
+    "city": "波札那/嘉柏隆里 (Botswana/Gaborone)",
+    "time_zone": "+2",
+    "summer_time": false
+},
+{
+    "city": "貝南/波多諾伏 (Benin/Porto Novo)",
+    "time_zone": "+1",
+    "summer_time": false
+},
+{
+    "city": "剛果共和國/金沙薩 (Congo/Kinshasa)",
+    "time_zone": "+1",
+    "summer_time": false
+},
+{
+    "city": "剛果共和國/盧本巴希 (Republic of the Cong/Lubumbashi)",
+    "time_zone": "+2",
+    "summer_time": false
+},
+{
+    "city": "中非共和國/班吉 (Central African Republic /Bangui)",
+    "time_zone": "+1",
+    "summer_time": false
+},
+{
+    "city": "剛果/布拉柴維爾 (Congo/Brazzaville)",
+    "time_zone": "+1",
+    "summer_time": false
+},
+{
+    "city": "象牙海岸(科特迪瓦)/阿比讓 (Ivory Coast/Abidjan)",
+    "time_zone": "+0",
+    "summer_time": false
+},
+{
+    "city": "喀麥隆/杜阿拉 (Cameroon/Douala)",
+    "time_zone": "+1",
+    "summer_time": false
+},
+{
+    "city": "阿爾及利亞/阿爾及爾 (Algeria/Algiers)",
+    "time_zone": "+1",
+    "summer_time": false
+},
+{
+    "city": "埃及/開羅 (Egypt/Cairo)",
+    "time_zone": "+3",
+    "summer_time": true
+},
+{
+    "city": "西撒哈拉/阿尤恩 (Western Sahara/El Aaiun)",
+    "time_zone": "+1",
+    "summer_time": false
+},
+{
+    "city": "厄利垂亞/阿斯馬拉 (Eritrea/Asmara)",
+    "time_zone": "+3",
+    "summer_time": false
+},
+{
+    "city": "西班牙/休達 (Spain/Ceuta)",
+    "time_zone": "+2",
+    "summer_time": true
+},
+{
+    "city": "依索匹亞/阿迪斯阿貝巴 (Ethiopia/Addis Ababa)",
+    "time_zone": "+3",
+    "summer_time": false
+},
+{
+    "city": "加彭/自由市 (Gabon/Libreville)",
+    "time_zone": "+1",
+    "summer_time": false
+},
+{
+    "city": "迦納/阿克拉 (Ghana/Accra)",
+    "time_zone": "+0",
+    "summer_time": false
+},
+{
+    "city": "岡比亞/班珠爾 (Gambia/Banjul)",
+    "time_zone": "+0",
+    "summer_time": false
+},
+{
+    "city": "幾內亞/科納克里 (Guinea/Conakry)",
+    "time_zone": "+0",
+    "summer_time": false
+},
+{
+    "city": "幾內亞/比紹 (Guinea/Bissau)",
+    "time_zone": "+0",
+    "summer_time": false
+},
+{
+    "city": "肯亞/內羅畢 (Kenya/Nairobi)",
+    "time_zone": "+3",
+    "summer_time": false
+},
+{
+    "city": "利比里亞/蒙羅維亞 (Liberia/Monrovia)",
+    "time_zone": "+0",
+    "summer_time": false
+},
+{
+    "city": "賴索托/馬塞盧 (Lesotho/Maseru)",
+    "time_zone": "+2",
+    "summer_time": false
+},
+{
+    "city": "利比亞/的黎波里 (Libya/Tripoli)",
+    "time_zone": "+2",
+    "summer_time": false
+},
+{
+    "city": "摩洛哥/卡薩布蘭卡 (Morocco/Casablanca)",
+    "time_zone": "+1",
+    "summer_time": false
+},
+{
+    "city": "馬利/巴馬科 (Mali/Bamako)",
+    "time_zone": "+0",
+    "summer_time": false
+},
+{
+    "city": "茅利塔尼亞/努瓦克肖特 (Mauritania/Nouakchott)",
+    "time_zone": "+0",
+    "summer_time": false
+},
+{
+    "city": "馬拉維/布蘭太爾 (Malawi/Blantyre)",
+    "time_zone": "+2",
+    "summer_time": false
+},
+{
+    "city": "莫三比克/馬普托 (Mozambique/Maputo)",
+    "time_zone": "+2",
+    "summer_time": false
+},
+{
+    "city": "納米比亞/文毫克 (Namibia/Windhoek)",
+    "time_zone": "+2",
+    "summer_time": false
+},
+{
+    "city": "尼日/尼阿美 (Niger/Niamey)",
+    "time_zone": "+1",
+    "summer_time": false
+},
+{
+    "city": "奈及利亞/拉各斯 (Nigeria/Lagos)",
+    "time_zone": "+1",
+    "summer_time": false
+},
+{
+    "city": "蘇丹/喀土穆 (Sudan/Khartoum)",
+    "time_zone": "+2",
+    "summer_time": false
+},
+{
+    "city": "塞內加爾/達卡 (Senegal/Dakar)",
+    "time_zone": "+0",
+    "summer_time": false
+},
+{
+    "city": "索馬里亞/摩加迪休 (Somalia/Mogadishu)",
+    "time_zone": "+3",
+    "summer_time": false
+},
+{
+    "city": "南蘇丹/朱巴 (South Sudan/Juba)",
+    "time_zone": "+2",
+    "summer_time": false
+},
+{
+    "city": "史瓦濟蘭/墨巴本 (Swaziland/Mbabane)",
+    "time_zone": "+2",
+    "summer_time": false
+},
+{
+    "city": "查德/恩賈梅納 (Chad/Ndjamena)",
+    "time_zone": "+1",
+    "summer_time": false
+},
+{
+    "city": "多哥/洛美 (Togo/Lome)",
+    "time_zone": "+0",
+    "summer_time": false
+},
+{
+    "city": "突尼西亞/突尼斯 (Tunisia/Tunis)",
+    "time_zone": "+1",
+    "summer_time": false
+},
+{
+    "city": "坦尚尼亞/三蘭港 (Tanzania/Dar es Salaam)",
+    "time_zone": "+3",
+    "summer_time": false
+},
+{
+    "city": "烏干達/坎帕拉 (Uganda/Kampala)",
+    "time_zone": "+3",
+    "summer_time": false
+},
+{
+    "city": "南非/約翰內斯堡 (South Africa/Johannesburg)",
+    "time_zone": "+2",
+    "summer_time": false
+},
+{
+    "city": "尚比亞/路沙卡 (Zambia/Lusaka)",
+    "time_zone": "+2",
+    "summer_time": false
+},
+{
+    "city": "辛巴威/哈拉雷 (Zimbabwe/Harare)",
+    "time_zone": "+2",
+    "summer_time": false
+}
+	]
+}

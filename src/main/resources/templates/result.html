@@ -5,11 +5,11 @@
     <title>Result</title>
 </head>
 <body>
-<div th:text="${myCityTimeZone}"></div>
-<div th:text="${myStartTime}"></div>
-<div th:text="${myEndTime}"></div>
-<div th:text="${yourCityTimeZone}"></div>
-<div th:text="${yourStartTime}"></div>
-<div th:text="${yourEndTime}"></div>
+<div th:text="${interactStartTime}"></div>
+To
+<div th:text="${interactEndTime}"></div>
+<form action="#" th:action="@{/start}" method="get">
+    <button type="submit">ReStart</button>
+</form>
 </body>
 </html>

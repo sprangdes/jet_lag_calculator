@@ -8,10 +8,9 @@ public class CityTimeZone {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private int id;
-    private String continent;
-    private String country;
     private String city;
     private String timeZone;
+    private boolean summerTime;
 
     public int getId() {
         return id;
@@ -19,22 +18,6 @@ public class CityTimeZone {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public String getContinent() {
-        return continent;
-    }
-
-    public void setContinent(String continent) {
-        this.continent = continent;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
     }
 
     public String getCity() {
@@ -51,5 +34,13 @@ public class CityTimeZone {
 
     public void setTimeZone(String timeZone) {
         this.timeZone = timeZone;
+    }
+
+    public boolean isSummerTime() {
+        return summerTime;
+    }
+
+    public void setSummerTime(boolean summerTime) {
+        this.summerTime = summerTime;
     }
 }
