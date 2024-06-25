@@ -5,9 +5,13 @@
     <title>Result</title>
 </head>
 <body>
-<div th:text="${interactStartTime}"></div>
-To
-<div th:text="${interactEndTime}"></div>
+<ul>
+    <li th:each="range: ${ranges}">
+        <div th:text="${range[0] + ':00'}"></div>
+        To
+        <div th:text="${range[1] + ':00'}"></div>
+    </li>
+</ul>
 <form action="#" th:action="@{/start}" method="get">
     <button type="submit">ReStart</button>
 </form>

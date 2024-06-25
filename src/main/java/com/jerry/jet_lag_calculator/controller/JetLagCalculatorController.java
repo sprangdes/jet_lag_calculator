@@ -10,19 +10,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 @Controller
 public class JetLagCalculatorController {
 
-    private String myCityTimeZone;
-    private LocalTime myStartTime;
-    private LocalTime myEndTime;
-    private String yourCityTimeZone;
-    private LocalTime yourStartTime;
-    private LocalTime yourEndTime;
+    private String myCityTimeZone, myStartTime, myEndTime,
+                   yourCityTimeZone, yourStartTime, yourEndTime;
 
     @Autowired
     private CityTimeZoneController cityTimeZoneController;
@@ -50,8 +44,8 @@ public class JetLagCalculatorController {
         ResponseEntity<List<CityTimeZone>> cityTimeZones = cityTimeZoneController.getAllCityTimeZones();
         model.addAttribute("cityTimeZones", cityTimeZones.getBody());
         this.myCityTimeZone = myCityTimeZone;
-        this.myStartTime = LocalTime.parse(myStartTime, DateTimeFormatter.ofPattern("HH:mm"));
-        this.myEndTime = LocalTime.parse(myEndTime, DateTimeFormatter.ofPattern("HH:mm"));
+        this.myStartTime = myStartTime;
+        this.myEndTime = myEndTime;
         return "you";
     }
 
@@ -61,17 +55,17 @@ public class JetLagCalculatorController {
                          @RequestParam String yourEndTime,
                          Model model) {
         this.yourCityTimeZone = yourCityTimeZone;
-        this.yourStartTime = LocalTime.parse(yourStartTime, DateTimeFormatter.ofPattern("HH:mm"));
-        this.yourEndTime = LocalTime.parse(yourEndTime, DateTimeFormatter.ofPattern("HH:mm"));
-        int jetLag = jetLagCalculatorService.jetLag(this.myCityTimeZone, this.yourCityTimeZone);
-        List<String> interactTimeList = jetLagCalculatorService.interactTimeCalculator(
+        this.yourStartTime = yourStartTime;
+        this.yourEndTime = yourEndTime;
+        List<Integer> interactTimeList = jetLagCalculatorService.interactTimeCalculator(
                 this.myStartTime,
                 this.myEndTime,
                 this.yourStartTime,
                 this.yourEndTime,
-                jetLag);
-        model.addAttribute("interactStartTime", interactTimeList.get(0));
-        model.addAttribute("interactEndTime", interactTimeList.get(1));
+                (int)(Math.round(Double.parseDouble(this.myCityTimeZone))),
+                (int)(Math.round(Double.parseDouble(this.yourCityTimeZone))));
+        List<int[]> ranges = jetLagCalculatorService.findContinuousRanges(interactTimeList);
+        model.addAttribute("ranges", ranges);
         return "result";
     }
 }

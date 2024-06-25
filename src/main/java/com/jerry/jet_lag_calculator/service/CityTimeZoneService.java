@@ -36,6 +36,7 @@ public class CityTimeZoneService {
             return null;
         }
     }
+
     public void deleteCityTimeZone(Long id){
         cityTimeZoneRepository.deleteById(id);
     }
