@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
     <meta charset="UTF-8">
     <title>You</title>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
 </head>
 <body>
-<form action="#" th:action="@{/result}" method="post">
-    <select id="yourCityTimeZone" name="yourCityTimeZone">
-        <option value="" disabled selected>你的城市</option>
-        <option th:each="cityTimeZone: ${cityTimeZones}" th:value="${cityTimeZone.timeZone}" th:text="${cityTimeZone.city}"></option>
-    </select><br>
-    <label>清醒時段</label><br>
-    <input type="time" id="yourStartTime" name="yourStartTime"><br>
-    To<br>
-    <input type="time" id="yourEndTime" name="yourEndTime"><br>
-    <button type="submit">下一步</button>
-</form>
 <form action="#" th:action="@{/me}" method="post">
-    <button type="submit">上一步</button>
+
+</form>
+<form action="#" th:action="@{/result}" method="post">
+    <label class="timeZoneSelector"><span>你的城市</span></label>
+        <select id="yourCityTimeZone" name="yourCityTimeZone" required>
+            <option value="" disabled selected>請選擇你的城市</option>
+            <option th:each="cityTimeZone: ${cityTimeZones}" th:value="${cityTimeZone.timeZone}" th:text="${cityTimeZone.city}"></option>
+        </select>
+    <br>
+    <label class="wakingTimeSelector"><span>清醒時段</span>
+    <input type="time" id="yourStartTime" name="yourStartTime" required>
+    <span>To</span>
+    <input type="time" id="yourEndTime" name="yourEndTime" required>
+    </label>
+    <button id="youLastButton" class="lastButton" type="submit" onclick="goBack()">上一步</button>
+    <button id="youNextButton" class="nextButton" type="submit">下一步</button>
 </form>
 </body>
 </html>
